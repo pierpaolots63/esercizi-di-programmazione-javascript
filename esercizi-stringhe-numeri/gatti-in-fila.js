@@ -17,4 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
-var cats = 44
+var cats = 44;
+
+var cats-for-row = 6;
+
+var row = cats/cats-for-row;
+
+console.log(row);
