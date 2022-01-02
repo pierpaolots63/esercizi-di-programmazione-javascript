@@ -21,6 +21,8 @@ var cats = 44;
 
 var cats-for-row = 6;
 
-var row = cats/cats-for-row;
+var numlines = Math.ceil (cats/cats-for-row);
 
-console.log(row);
+var missing = (numerlines*cat-for-row) - cats;
+
+console.log(` $ (cats) gatti in fila per $ (cats-for-row) si unirono compatti in $ (numlines) file. Nell'ultima rimasero $ (missing) posti gatto disponibili `);
